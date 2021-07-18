@@ -10,5 +10,9 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        Calculate calculate = new Calculate();
+        System.out.println(calculate.AAA(2,3));
+        System.out.println(calculate.BBB(1,10));
+        System.out.println(calculate.CCC(1,10));
     }
 }
